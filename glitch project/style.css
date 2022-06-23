@@ -1,0 +1,158 @@
+/* CSS files add styling rules to your content */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* navigation bar */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #203a43;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #2980b9;
+}
+/*end of navigation bar*/
+
+/* button*/
+
+.button-1 {
+  background-color: #2980b9;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #12c2e9;
+}
+
+.container {
+  height: 190px;
+  position: relative;
+  color: #ffffff;
+  
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: #203a43;
+  font-weight: 200px;
+  margin-top: -40px;
+  text-align: center;
+}
+
+.trans {
+  background: #ffffff;
+  opacity: 0.7;
+  text-align: left;
+}
+
+.list {
+  text-align: center;
+  text-decoration: none;
+  background: #ffffff;
+  opacity: 0.7;
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+/*
+.transparent-bg{
+	background: rgba(255, 165, 0, 0.73);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+*/
+
+html {
+  height: 100%;
+  /* max-height: 600px; */
+  width: 1000px;
+  background-color: hsla(200, 40%, 30%, 0.4);
+  background-image: url("https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png"),
+    url("https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png"),
+    url("https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png"),
+    url("https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png"),
+    url("https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png");
+  background-repeat: repeat-x;
+  background-position: 0 20%, 0 100%, 0 50%, 0 100%, 0 0;
+  background-size: 2500px, 800px, 500px 200px, 1000px, 400px 260px;
+  animation: 50s para infinite linear;
+}
+
+@keyframes para {
+  100% {
+    background-position: -5000px 20%, -800px 95%, 500px 50%, 1000px 100%,
+      400px 0;
+  }
+}
+/*
+footer {
+   left: 30px;
+   bottom: 30px;
+   width: 100%;
+   background-color:#333333;
+   color: #ffffff;
+   text-align: center;
+}
+*/
+
+footer {
+  background: #203a43;
+  height: 40px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+}
